@@ -14,6 +14,7 @@ Members arrive, follow their own workout plans (sets, reps, load, rest), queue f
 
 ## How it was made
 
+- The full prompt is in [PROMPT.md](PROMPT.md). It was drafted with Grok, following the structure of @vib3coded's tennis prompt.
 - One build prompt, plus one follow-up asking for the artifact link. No feature-change requests.
 - Claude launched 10 sub-agents to build the modules in parallel.
 - 3 h 4 m 32 s from the first request to the final response (wall-clock time, including waiting; not compute time).
